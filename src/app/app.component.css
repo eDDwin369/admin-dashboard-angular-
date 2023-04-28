@@ -1,0 +1,15 @@
+mat-drawer-container{
+    height: 85vh;
+    background-color: bisque;
+
+}
+mat-drawer{
+    width: 250px;
+    background-color: brown;
+    
+    
+}
+mat-drawer-content{
+    padding: 10px;
+    
+}

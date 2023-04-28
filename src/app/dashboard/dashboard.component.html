@@ -1,0 +1,55 @@
+<!-- cards -->
+
+
+<!-- dashboard will be parent and cards will be child  -->
+
+<div class="cards">
+    <!-- card 1 -->
+    <mat-card class="hover" style="background-color: green;">
+        <app-card
+        icon="person"
+        description="Students" 
+        count="2000"></app-card>
+    </mat-card>
+    <!-- card 2 -->
+    <mat-card style="background-color: deeppink;">
+        <app-card
+        icon="home"
+        description="Institution" 
+        count="50"></app-card>
+    </mat-card>
+    <!-- card 3 -->
+    <mat-card style="background-color: cornflowerblue;">
+        <app-card
+           icon="groups"
+        description="Employees" 
+        count="1000"></app-card>
+    </mat-card>
+    <!-- card 4 -->
+    <mat-card style="background-color: darkturquoise;">
+        <app-card
+        icon="dashboard"
+        description="Placement" 
+        count="1500"></app-card>
+    </mat-card>
+</div>
+
+
+
+
+<!-- area chart -->
+
+<div  class="area">
+    <app-chart></app-chart>
+</div>
+
+<div class="tablepie">
+    <div style="width: 620px;" class="table">
+        <app-table></app-table>
+    </div>
+
+    <div  class="pee">
+        <app-pie-chart></app-pie-chart>
+    </div>
+
+</div>

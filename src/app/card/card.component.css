@@ -1,0 +1,15 @@
+.card{
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon{
+    font-size: 70px;
+    width: fit-content;
+    height: fit-content;
+}
+.content{
+
+    margin-left: -10px;
+}
